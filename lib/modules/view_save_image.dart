@@ -14,8 +14,8 @@ class _ImageViewState extends State<ImageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:  Center(
-        child:  Image.file(widget.file),
+      body: Center(
+        child: Image.file(widget.file),
       ),
     );
   }

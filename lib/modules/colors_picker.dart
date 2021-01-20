@@ -273,10 +273,8 @@ class _CircleColorPickerState extends State<CircleColorPicker> {
     final thumbRadius = widget.thumbRadius;
 
     // compute thumb center coordinate
-    final thumbCenterX =
-        radius + thumbDistanceToCenter * sin(thumbRadians);
-    final thumbCenterY =
-        radius + thumbDistanceToCenter * cos(thumbRadians);
+    final thumbCenterX = radius + thumbDistanceToCenter * sin(thumbRadians);
+    final thumbCenterY = radius + thumbDistanceToCenter * cos(thumbRadians);
 
     // build thumb widget
     Widget thumb = Positioned(

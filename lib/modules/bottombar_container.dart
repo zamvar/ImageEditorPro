@@ -11,25 +11,25 @@ class BottomBarContainer extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return  Container(
+    return Container(
       width: MediaQuery.of(context).size.width / 5,
       color: colors,
       child: Material(
         color: Colors.black87,
         child: InkWell(
           onTap: ontap,
-          child:  Column(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-               Icon(
+              Icon(
                 icons,
                 color: Colors.white,
               ),
-               SizedBox(
+              SizedBox(
                 height: 4,
               ),
-               Text(
+              Text(
                 title,
                 style: TextStyle(color: Colors.white),
               )
