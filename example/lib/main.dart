@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'package:image_editor_pro/image_editor_pro.dart';
-import 'package:flutter/material.dart';
 import 'package:firexcode/firexcode.dart';
 
 void main() {
@@ -21,6 +20,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   File _image;
+
   Future<void> getimageditor() =>
       Navigator.push(context, MaterialPageRoute(builder: (context) {
         return ImageEditorPro(
