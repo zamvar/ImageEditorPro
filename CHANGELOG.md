@@ -13,3 +13,8 @@
 ## 1.0.8
 
  updated all dependencies :)
+
+## 1.0.9
+fix
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0 <2.0.0"
