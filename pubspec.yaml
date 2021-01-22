@@ -1,26 +1,25 @@
 name: image_editor_pro
 description: Image Editor Plugin with simple, easy support for image editing using paints,text and emoji like stories.
-version: 1.0.7
+version: 1.0.8
 homepage: https://github.com/zeeshux7860/Image_editor_pro_package
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=1.20.0 <2.0.0"
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons:
-  zoom_widget:
-  font_awesome_flutter:
-  image_picker:
-  path_provider:
-  image_gallery_saver:
-  permission_handler:
-  dio:
-  screenshot:
-  signature:
-  flutter_colorpicker:
-  analyzer: ^0.41.2
+  cupertino_icons: ^1.0.2
+  zoom_widget: ^0.1.3
+  font_awesome_flutter: ^8.11.0
+  image_picker: ^0.6.7+21
+  path_provider: ^1.6.27
+  image_gallery_saver: ^1.6.7
+  permission_handler: ^5.0.1+1
+  dio: ^3.0.10
+  screenshot: ^0.2.0
+  signature: ^3.2.0
+  flutter_colorpicker: ^0.3.5
 
 dev_dependencies:
   pedantic: ^1.9.2
@@ -33,13 +32,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-  # This section identifies this Flutter project as a plugin project.
-  # The androidPackage and pluginClass identifiers should not ordinarily
-  # be modified. They are used by the tooling to maintain consistency when
-  # adding or updating assets for this project.
   plugin:
-    androidPackage: zeeshux7860.update.image_editor_pro
-    pluginClass: ImageEditorProPlugin
+    platforms:
+      android:
+        package: zeeshux7860.update.image_editor_pro
+        pluginClass: ImageEditorProPlugin
+      ios:
+        pluginClass: ImageEditorProPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

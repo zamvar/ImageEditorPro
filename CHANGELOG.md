@@ -9,3 +9,7 @@
 ## 1.0.7
 
  updated all dependencies :)
+
+## 1.0.8
+
+ updated all dependencies :)
