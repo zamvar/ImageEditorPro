@@ -2,6 +2,7 @@ name: image_editor_pro
 description: Image Editor Plugin with simple, easy support for image editing using paints,text and emoji like stories.
 version: 1.0.9
 homepage: https://github.com/zeeshux7860/Image_editor_pro_package
+publish_to: none
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
